@@ -1,0 +1,21 @@
+body{
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    background-color: gray;
+    & header{
+        & h1{
+            
+        }
+        & p{
+            font-size: larger;
+        }
+    }
+    & main{
+        min-height: 80vh;
+    }
+    & footer{
+
+    }
+}

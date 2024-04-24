@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../img/wood.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+a {
+    color: rgb(255, 173, 49);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: rgba(135, 182, 223, 0.603);
+}
+
+header {
+    background-color: rgba(231, 252, 252, 0.281);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-left: 10px;
+}
+
+section {
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.impairSection {
+    background-color: #3e7749a8;
+    color: rgb(241, 241, 241);
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+
+
+}
+
+nav ul {
+    display: inline-block;
+    padding: 0;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    word-wrap: normal;
+    padding: 5px;
+    background-color: rgb(231, 252, 252);
+    font-size: large;
+}
+
+nav a:active {
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(0, 255, 85);
+    background-color: black;
+    font-size: large;
+}
+
+nav {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section h4 {
+    color: rgb(234, 243, 184);
+}
+
+.lamalbaie {
+    width: 40vh;
+    padding-left: 10px;
+    float: right;
+    object-fit: contain;
+}
+
+.lever {
+    width: 40vh;
+    padding-top: 10px;
+}
+
+.blazoricon {
+    width: 30px;
+}

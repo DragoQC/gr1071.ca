@@ -1,0 +1,248 @@
+header {
+  background-color: rgb(244, 245, 240);
+  padding: 1rem;
+  text-align: center;
+  border: solid rgb(183, 179, 177) 3px;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(rgb(147, 70, 00), rgb(244, 245, 240));
+}
+
+nav li {
+  text-align: center;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+nav a:link {
+  background-color: rgb(147, 70, 00);
+  color: rgb(244, 245, 240);
+  padding: 6px 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: rgb(30, 50, 66);
+  color: rgb(244, 245, 240);
+  padding: 10px;
+}
+
+nav a:visited {
+  color: white;
+  background-color: darkgrey;
+}
+
+.container {
+  max-width: 60%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(30, 50, 66);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(244 245 240);
+  background: linear-gradient(#f4f5f0, #1e3242);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(30, 50, 66);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.degrade {
+  background: rgb(244, 245, 240);
+  border-radius: 10px;
+}
+
+footer {
+  max-width: 100%;
+  margin-top: 1rem;
+  background-image: url(../img/jiu-jitsu.png);
+  background-position: center;
+  background-size: auto;
+  height: 250px;
+  border-radius: 10px;
+  border: solid rgb(183, 179, 177) 3px;
+}
+
+.signature {
+  max-width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(244, 245, 240);
+  font-size: 22px;
+  text-shadow: rgb(183, 179, 177) 3px 3px 3px;
+  padding-top: 5rem;
+}
+
+footer div div {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.lien {
+  color: rgb(147, 70, 00);
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.lien:hover {
+  color: rgb(244, 245, 240);
+  background-color: rgb(147, 70, 00);
+  border-radius: 5px;
+}
+
+.lien:visited {
+  color: rgb(183, 179, 177);
+}
+
+.portrait {
+  display: block;
+  width: 150px;
+  border: solid rgb(183, 179, 177) 3px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.recette {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(30, 50, 66);
+  line-height: 3rem;
+  background-color: rgb(244, 245, 240);
+  border: solid rgb(183 179 177) 3px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+ol {
+  justify-items: left;
+}
+
+.pain {
+  width: 300px;
+  float: right;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.moi {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(30, 50, 66);
+  background-color: rgb(244 245 240);
+  border: solid rgb(183 179 177) 3px;
+  line-height: 3rem;
+  max-width: 70ch;
+  text-align: left;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.lecture {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(30, 50, 66);
+  background-color: rgb(244 245 240);
+  border: solid rgb(183 179 177) 3px;
+  line-height: 3rem;
+  max-width: 70ch;
+  text-align: left;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.cuisine {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(30, 50, 66);
+  line-height: 3rem;
+  background-color: rgb(244 245 240);
+  border: solid rgb(183 179 177) 3px;
+  max-width: 70ch;
+  text-align: left;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.bjj {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(30, 50, 66);
+  line-height: 3rem;
+  background-color: rgb(244 245 240);
+  border: solid rgb(183 179 177) 3px;
+  max-width: 70ch;
+  text-align: left;
+  margin: 0 auto;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+p,
+ol,
+ul,
+figcaption {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+.livre {
+  width: 200px;
+  float: right;
+  opacity: 70%;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: -1rem;
+}
+
+.titrerecette {
+  margin-left: 1rem;
+  margin-bottom: -2rem;
+  text-align: left;
+}

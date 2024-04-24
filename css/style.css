@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --clr-orange: #CE915B;
+    --clr-blue: #4A9CD6;
+
+    --animate-delay: 0.5s;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    user-select: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.orange {
+    color: var(--clr-orange);
+}
+
+.blue {
+    color: var(--clr-blue);
+}
+
+
+/* Navigation */
+
+.navbar {
+    height: 12vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding-inline: 3rem;
+}
+
+.navbar__nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar__studentsIcon,
+.navbar__menuIcon {
+    height: 40px;
+    width: 40px;
+    fill: white;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.navbar__studentsIcon:hover {
+    fill: var(--clr-blue);
+}
+
+
+.navbar__menuIcon:hover {
+    fill: var(--clr-orange);
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    transition: 500ms;
+}
+
+.submenu-link {
+    font-size: 1rem;
+}
+
+
+/* Main content */
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 3rem;
+}
+
+.box {
+    width: 60%;
+    height: 400px;
+    left: 25%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.box__title {
+    font-size: 2.5rem;
+}
+
+.box__subtitle {
+    font-size: 1.5rem;
+}
+
+.box__paragraph {
+    font-size: 1.25rem;
+}
+
+
+/* Footer */
+footer {
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 3rem;
+}
+
+.copyright {
+    height: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.635);
+    margin: auto;
+    transition: 200ms;
+}
+
+
+
+
+
+
+
+
+
+/* Menus */
+.offcanvas {
+    margin-top: 12vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    color: white;
+}
+
+.offcanvas-header {
+    width: 100%;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0;
+}
+
+.offcanvas-title {
+    margin: auto;
+    font-size: 2rem;
+}
+
+
+/* Remove scrollbar in offcanvas menus */
+.offcanvas-body {
+    text-align: start;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.offcanvas-body::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+
+.offcanvas-end .accordion a:hover {
+    color: var(--clr-orange);
+}
+
+.offcanvas-start li {
+    margin-block: 0.25rem;
+}
+
+.offcanvas-start a,
+.offcanvas-start a:visited {
+    color: white;
+
+    transition: 200ms;
+}
+
+.menu-etudiants a:hover,
+.menu-etudiants a:focus {
+    color: var(--clr-blue);
+
+}
+
+.menu-cours a:hover,
+.menu-cours a:focus {
+    color: var(--clr-orange);
+
+}
+
+@Media screen and (max-width : 1400px) {}
+
+/* L - Tablets (landscape) */
+@Media screen and (max-width : 1200px) {
+    .box {
+        width: 90%;
+        left: 25%;
+        padding: 2rem;
+        margin: auto;
+    }
+
+    .box__title {
+        font-size: 2.5rem;
+    }
+
+    .box__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .box__paragraph {
+        font-size: 1.15rem;
+    }
+}
+
+@Media screen and (max-width : 992px) {
+    .box {
+        width: 100%;
+        left: 25%;
+        padding: 2rem;
+        margin: auto;
+    }
+
+    .box__title {
+        font-size: 2rem;
+    }
+
+    .box__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .box__paragraph {
+        font-size: 1.15rem;
+    }
+}
+
+@Media screen and (max-width : 768px) {
+    .navbar {
+        padding-inline: 2rem;
+    }
+
+    main {
+        padding-inline: 2rem;
+    }
+
+    .box__title {
+        font-size: 2rem;
+    }
+
+    .box__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .box__paragraph {
+        font-size: 1.15rem;
+    }
+
+    footer {
+        padding-inline: 2rem;
+    }
+
+    .copyright {
+        font-size: 0.75rem;
+    }
+}
+
+@Media screen and (max-width : 576px) {
+    .navbar {
+        padding-inline: 0.5rem;
+    }
+
+    .navbar__studentsIcon,
+    .navbar__menuIcon {
+        height: 30px;
+        width: 30px;
+    }
+
+    main {
+        padding-inline: 0.5rem;
+    }
+
+    .box__title {
+        font-size: 1.5rem;
+    }
+
+    .box__subtitle {
+        font-size: 1.15rem;
+    }
+
+    .box__paragraph {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding-inline: 0.5rem;
+    }
+
+    .copyright {
+        font-size: 0.5rem;
+    }
+
+    .offcanvas-start a {
+        font-size: 1.15rem;
+    }
+}

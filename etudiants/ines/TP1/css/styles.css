@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d98077;
+}
+
+.header {
+  text-align: center;
+  color: #fdeeeb;
+}
+
+.footer {
+  background-image: url(/images/banner.jpg);
+  background-size: contain;  
+  background-repeat: repeat-x;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+
+
+/* text & color */
+h1{
+    margin: 5% 0;
+    font-size: 5em;
+}
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+    overflow: hidden;
+    text-align: justify;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  padding: 2% 5%;
+}
+
+.light {
+  background-color: #d3bcae;
+  color: #2f0a08;
+}
+
+.dark {
+  background-color: #572320;
+  color: #fdeeeb;
+}
+
+.alight{
+    color: #fdeeeb;
+}
+
+.adark{
+    color: #2f0a08;
+}
+
+a:hover{
+    color: #c50c30;
+}
+
+/*image*/
+
+img{
+    margin-bottom: 15px;
+    
+    border-radius: 10%;
+  }
+
+#photomoi{
+    width: 13%;
+}
+
+#bandeaulogo{
+    width: 50%;
+    border-radius: 0%;
+}
+
+#chat{
+    width: 10%;
+    margin-top: 1%;
+}
+
+#chien{
+    width: 15%;
+    margin-top: 1%;
+}
+
+.justifie-gauche{
+    float: left;
+    margin: 0 40px 30px 0;
+  }
+  
+  .justifie-droite{
+    float: right;
+    margin: 0 0 30px 30px;
+  }
+
+/* nav bar */
+nav {
+  background-color: #d3bcae;
+}
+
+nav li {
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+
+  margin: 0 5%;
+  padding: 2% 0%;
+}
+
+ul {
+  margin-bottom: 0;
+}
+.btnnav {
+  border-radius: 20%;
+  color: #2f0a08;
+}
+
+/* FOOTER */
+.footerp {
+  font-family: "Roboto", sans-serif;
+  color: #2f0a08;
+  display: inline-block;
+  margin: 2% 8%;
+  
+}
